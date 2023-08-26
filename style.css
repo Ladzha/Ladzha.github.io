@@ -1,0 +1,217 @@
+
+body{
+    margin: 0px;
+    background-color: #f5ebe0;
+    color: #382818;
+    text-align: center;   
+}
+
+header nav, .book-card {
+    background-color: white;
+    box-shadow: 4px 3px 3px #d6ccc2;
+}
+
+/* redesign nav  */
+header nav {
+    background-color: #a79685
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav a:visited{
+    color:#d7cec4;
+}
+/* redesign nav */
+
+header{
+    margin-left: auto;
+    margin-right:auto;
+}
+
+header h1{
+    font-size: 4em;
+    padding: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Great Vibes', cursive;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/* Menu */
+
+nav {
+    margin: 0px;
+    padding: 10px;
+    padding-left: 0px;
+}
+nav li {
+    display: inline;
+    padding: 20px;     
+}
+
+nav li:first-of-type{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+/* Article */
+
+img{
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.about{
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 1.4em;
+    background-color: rgb(255, 255, 255); 
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 70px;
+}
+
+.biography+ul{
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.4;
+    padding-left: 0px;
+}
+ 
+.biography+ul li{    
+    margin-bottom: 20px;
+    list-style-type:none;
+}
+
+.year{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Link style  */
+a{
+    font-size: 1.3em;
+    color: #382818;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color:#695a4b;
+}
+
+a:hover{
+    color:#845c35;
+}
+
+/* Book-cards area */
+
+.container{
+    margin: 70px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.book-card{
+    width: 200px;
+    margin: 20px;
+    transition: all 1s;
+}
+
+.book-card:hover {
+    transform: scale(1.1);
+}
+
+.book-year{
+    font-style: italic;
+}
+
+.book-card img{
+    width: 200px;
+}
+
+.book-card ul{
+    list-style-type: none;
+    padding-inline-start: 0px; 
+    margin: 10px; 
+}
+
+.book-card li{
+    line-height: 1.2;
+    margin-bottom:10px;
+}
+
+/* Awards */
+
+table{
+    width: 70%;
+    font-size: 1.2em;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    padding-top: 0px;
+    margin-bottom: 70px;  
+}
+
+th{
+    font-size: 1.4em;
+    background-color: #d6ccc2;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px dotted;
+      
+}
+
+td{
+    margin: 0px;
+    padding: 20px;
+    border: 1px dotted;
+}
+
+table td:nth-child(1){
+    background-color: rgba(214, 204, 194, 0.7);
+    font-weight: bold;
+    font-size: 1.1em;
+    
+}
+
+table td:nth-child(2){
+    background-color: rgba(214, 204, 194, 0.5);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+table td:nth-child(3){
+    background-color: rgba(214, 204, 194, 0.3);
+}
+
+table td:nth-child(4){
+    background-color: rgba(214, 204, 194, 0.1);
+    font-style: italic;
+}
+
+footer{
+    background-color: #d6ccc2;
+    font-size: 1.5em;
+    padding: 30px;
+}
