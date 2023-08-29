@@ -88,6 +88,12 @@ article{
     margin-bottom: 70px;
 }
 
+@media (max-width: 800px) {
+    article {
+        width: 90%;
+    }
+}
+
 .biography+ul{
     text-align: left;
     font-size: 1.2em;
